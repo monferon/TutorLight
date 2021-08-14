@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorLight.API", "TutorLight.API\TutorLight.API.csproj", "{F479DFB8-6592-4E82-90E8-12E586006F03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorLight.Telegram", "TutorLight.Telegram\TutorLight.Telegram.csproj", "{DF1D5D30-7492-4D00-9442-B0FFD597373B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TutorLight.Service", "TutorLight.Service\TutorLight.Service.csproj", "{77739479-03FF-4FC0-B53A-30EF2259156A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{F479DFB8-6592-4E82-90E8-12E586006F03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F479DFB8-6592-4E82-90E8-12E586006F03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F479DFB8-6592-4E82-90E8-12E586006F03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1D5D30-7492-4D00-9442-B0FFD597373B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1D5D30-7492-4D00-9442-B0FFD597373B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1D5D30-7492-4D00-9442-B0FFD597373B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1D5D30-7492-4D00-9442-B0FFD597373B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77739479-03FF-4FC0-B53A-30EF2259156A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77739479-03FF-4FC0-B53A-30EF2259156A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77739479-03FF-4FC0-B53A-30EF2259156A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77739479-03FF-4FC0-B53A-30EF2259156A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
