@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.EntityFrameworkCore;
 // using Microsoft.AspNetCore.Authentication.JwtBearer;
 // using Microsoft.Identity.Web;
 using Microsoft.Extensions.Configuration;
@@ -14,6 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using TutorLight.API.Data;
 
 namespace TutorLight.API
 {
@@ -33,6 +35,7 @@ namespace TutorLight.API
             //     .AddMicrosoftIdentityWebApi(Configuration.GetSection("AzureAd"));
 
             services.AddControllers();
+            services.AddDbContext<TutorContext>(options => options.UseNpgsql("Server=127.0.0.1;Port=5432;Database=TutorLight;User Id=postgres;Password=P@ssw0rd;"));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo {Title = "TutorLight.API", Version = "v1"});

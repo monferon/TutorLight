@@ -44,3 +44,12 @@
 /Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/obj/Debug/net5.0/ref/TutorLight.API.dll
 /Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/obj/Debug/net5.0/TutorLight.API.pdb
 /Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/obj/Debug/net5.0/TutorLight.API.genruntimeconfig.cache
+/Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/bin/Debug/net5.0/Npgsql.dll
+/Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
+/Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/bin/Debug/net5.0/TutorLight.Service.dll
+/Users/monnoroch/RiderProjects/TutorLight/TutorLight.API/bin/Debug/net5.0/TutorLight.Service.pdb
